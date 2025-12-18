@@ -11,7 +11,25 @@ This research will demonstrate how mobile app digital footprints and predictive 
 
 The 'Data' folder contains all the raw datasets required for the cleaning and scraping steps, as well as the cleaned datasets required for modelling.
 
+Different datasets need to be collected, cleaned and joined:
 
+Variable | Unit | Description | Source
+---------|------|----------|----------
+Estimated Actual Footfall | | Number of visitors in area for a given day. | [HUQ](https://huq.io/insights/footfall-data/)
+Estimated Actual Footfall Rolling | | Average number of visitors of the previous 6 days for the same day of the week in area | [HUQ](https://huq.io/insights/footfall-data/)
+Cos_weekday_num| |Cosine of the week day number | 
+Sin_weekday_num| |Sinus of the week day number | 
+Cos_month_num| |  Cosine of the month number| 
+Sin_month_num| | Sinus of the month number| 
+Cos_week_of_year| | Cosine of the week of year number| 
+Sin_week_of_year| | Sinus of the week of year number | 
+Year| | | 
+bank_hol| |Whether or not that day is a bank holiday (0= No, 1= Yes)|[Kaggle](https://www.kaggle.com/datasets/shivd24coder/uk-national-holidays-dataset)
+Covid times| |Whether or not that day was during covid restrictions (0= No, 1= Yes)|
+Precipitation | mm | Sum of daily precipitation (including rain, showers and snowfall) | [Open Meteo API](https://open-meteo.com/en/docs/historical-weather-api?bounding_box=-90,-180,90,180&hourly=&daily=temperature_2m_mean,precipitation_sum,wind_speed_10m_max)
+Temperature | °C | Average daily air temperature at 2 meters above ground | [Open Meteo API](https://open-meteo.com/en/docs/historical-weather-api?bounding_box=-90,-180,90,180&hourly=&daily=temperature_2m_mean,precipitation_sum,wind_speed_10m_max)
+Wind Speed | km/h | Maximum wind speed on a day | [Open Meteo API](https://open-meteo.com/en/docs/historical-weather-api?bounding_box=-90,-180,90,180&hourly=&daily=temperature_2m_mean,precipitation_sum,wind_speed_10m_max)
+Daylight Duration | seconds | Number of seconds of daylight per day | [Open Meteo API](https://open-meteo.com/en/docs/historical-weather-api?bounding_box=-90,-180,90,180&hourly=&daily=temperature_2m_mean,precipitation_sum,wind_speed_10m_max)
 
 ## Project Worflow
 
@@ -32,4 +50,46 @@ The ouput files from this are:
 * footfall_2025.csv (just 2025)
 
 ### <ins> 3. Data Modelling </ins> 
+
+This notebook follows the data cleaning and scraping by modelling the footfall data. The model is selected, tuned and fitted using the footfall data between 2019 and 2024. The model is then used later on to predict the 2025 footfall, to allow event evaluation.
+
+The below steps are followed:
+
+#### 1) Model selection
+
+The performance of four different machine learning models is tested using 10-fold cross validation. The models include:
+
+* Linear regression
+* Random Forest
+* XGBoost
+* Extra Trees Regressor
+
+The outputs of the 10-fold cross validation process are used to calculate the error metric scores associated with that model (averaged over all folds). The MAE, the MAPE, the R2 and the RMSE metrics are compared to find the model that will best fit the data.
+
+**Conclusion:** Random Forest Regression is the best performing model. After going through model selection **and** conducting model evaluation.
+
+#### 2) Model Evaluation
+
+The performance of the model is tested, using a 80-20 test split with the chronological order of the data preserved. The model performance is evaluated using the error metrics of MAE, MAPE, R2 and RMSE.
+
+#### 3) Hyperparameter Tuning
+
+
+Hyperparameter tuning is performed as it allows to find the best set of hyperparameters to maximise the model's efficiency and accuracy. 
+
+#### 4) Fitting the Final Model
+
+Using the optimal hyperparameters found during the tuning, the model is fitted again, this time using the whole dataset (no training and test splits).
+
+#### 5) Feature Importance
+
+The feature importance of the model predictor variables is investigated.
+
+#### 6) Using Model to Evaluate Events (Recursive Forecasting)
+
+The final model is used to quantify the change in footfall that would otherwise been predicted in 2025.
+
+## Next Steps (After Xmas Break)
+
+The issue so far is that the model has a quite low performance and tends to overestimate footfall. So far some of the temporal contextual variables were inputted using the cyclic encoding, thus I need to try using the one hot encoding technique instead to see if this improves model performance.
 
