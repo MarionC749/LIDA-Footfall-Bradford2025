@@ -10,8 +10,9 @@ This research will demonstrate how mobile app digital footprints and predictive 
 ## Data 📊
 
 The 'Data' folder contains all the raw datasets required for the cleaning and scraping steps, as well as the cleaned datasets required for modelling.
+The data was received on the 5th of November 2025. **The datasets are not publically available and should not be shared.**
 
-Different datasets need to be collected, cleaned and joined:
+Different datasets were collected, cleaned and joined:
 
 Variable | Unit | Description | Source
 ---------|------|----------|----------
@@ -38,16 +39,16 @@ Daylight Duration | seconds | Number of seconds of daylight per day | [Open Mete
 This script involves cleaning the raw footfall data, creating contextual temporal variables, conducting exploratory data analysis and visualizations which can be used for future dashboards.
 
 The ouput files from this is:
-* footfall_MetOf_Clean.csv
+* `footfall_MetOf_Clean.csv`
 
 ### <ins> 2. Data Scraping </ins> ⛏️
 
 This script involves adding more contextual variables by scraping data for weather (with API), UK bank holidays and covid times. The notebook ends by separating data for the 2019-2024 period and the 2025 period, and removing outliers in the 2019-2024 data using the Median Average Distance technique.
 
 The ouput files from this are:
-* footfall_clean.csv (all years)
-* footfall_19_24.csv (2019-2024)
-* footfall_2025.csv (just 2025)
+* `footfall_clean.csv (all years)`
+* `footfall_19_24.csv (2019-2024)`
+* `footfall_2025.csv (just 2025)`
 
 ### <ins> 3. Data Modelling </ins> 🤖
 
