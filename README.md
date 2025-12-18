@@ -7,9 +7,19 @@ Daily footfall count data derived from mobile applications will be combined with
 The Bradford City of Culture 2025 programme was expected to generate measurable increases in footfall, reflecting its projected attraction of large visitor numbers and associated social and economic regeneration. The analysis anticipates identifying distinct spatial and temporal patterns of increased pedestrian activity during and after major events.
 This research will demonstrate how mobile app digital footprints and predictive modelling can be leveraged to strengthen cultural impact assessment, supporting evidence-based decision-making for event organizers, funders and policy makers.
 
+## Run Instructions 💻
+
+Acquire the datasets stored in the `Data` folder.
+1. Install dependencies from `requirements1.json`
+2. Run `1- Footfall-Clean-EDA-Distribution.ipynb`
+3. Install dependencies from `requirements2.json`
+4. Run `2- Data Scraping.ipynb`
+4. Install dependencies from `requirements3.json`
+5. Run `3- Modelling.ipynb`
+
 ## Data 📊
 
-The 'Data' folder contains all the raw datasets required for the cleaning and scraping steps, as well as the cleaned datasets required for modelling.
+The `Data` folder contains all the raw datasets required for the cleaning and scraping steps, as well as the cleaned datasets required for modelling.
 The HUQ data was received on the 5th of November 2025, and the Kaggle data was accessed on the 9th of December 2025. **The HUQ datasets are not publically available and should not be shared.**
 
 Different datasets were collected, cleaned and joined:
