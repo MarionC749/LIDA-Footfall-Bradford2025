@@ -91,5 +91,6 @@ The final model is used to quantify the change in footfall that would otherwise 
 
 ## Next Steps (After Xmas Break)
 
-The issue so far is that the model has a quite low performance and tends to overestimate footfall. So far some of the temporal contextual variables were inputted using the cyclic encoding, thus I need to try using the one hot encoding technique instead to see if this improves model performance.
+1) The issue so far is that the model has a quite low performance and tends to overestimate footfall. So far some of the temporal contextual variables were inputted using the cyclic encoding, thus I need to try using the one hot encoding technique instead to see if this improves model performance.
+2) I need to add a 'was during Bradford 2025 program' variable, retrain and refit the model on the whole dataset (2019-2025), and then predict footfall in 2026 to forecast trends post Bradford25.
 
