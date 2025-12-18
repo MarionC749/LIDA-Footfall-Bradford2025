@@ -10,7 +10,7 @@ This research will demonstrate how mobile app digital footprints and predictive 
 ## Data 📊
 
 The 'Data' folder contains all the raw datasets required for the cleaning and scraping steps, as well as the cleaned datasets required for modelling.
-The data was received on the 5th of November 2025. **The datasets are not publically available and should not be shared.**
+The data was received on the 5th of November 2025. **The HUQ datasets are not publically available and should not be shared.**
 
 Different datasets were collected, cleaned and joined:
 
