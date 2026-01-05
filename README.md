@@ -40,6 +40,7 @@ Cos_week_of_year| | Cosine of the week of year number|
 Sin_week_of_year| | Sinus of the week of year number | 
 Year| | | 
 bank_hol| |Whether or not that day is a bank holiday (0= No, 1= Yes)|[Kaggle](https://www.kaggle.com/datasets/shivd24coder/uk-national-holidays-dataset)
+school_hol| |Whether or not that day is a school holiday (0= No, 1= Yes)|[Bradford Council](https://bradford.gov.uk/)
 Covid times| |Whether or not that day was during covid restrictions (0= No, 1= Yes)|
 Precipitation | mm | Sum of daily precipitation (including rain, showers and snowfall) | [Open Meteo API](https://open-meteo.com/en/docs/historical-weather-api?bounding_box=-90,-180,90,180&hourly=&daily=temperature_2m_mean,precipitation_sum,wind_speed_10m_max)
 Temperature | °C | Average daily air temperature at 2 meters above ground | [Open Meteo API](https://open-meteo.com/en/docs/historical-weather-api?bounding_box=-90,-180,90,180&hourly=&daily=temperature_2m_mean,precipitation_sum,wind_speed_10m_max)
