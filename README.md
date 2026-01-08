@@ -21,6 +21,11 @@ Acquire the datasets stored in the `Data` folder.
 4. Install dependencies from `requirements3.json`
 5. Run `3- Modelling.ipynb`
 
+## Warning ⚠️
+
+1) I am currently working on the Bradford District (Met Office) data only. The footfall data on the Bradford BID, City centre and parks will be analysed later.
+2) I am currently refining the analysis, by trying to improve the Random Forest Regression performance and trying SARIMAX as an alternative model.
+
 ## Data 📊
 
 The `Data` folder contains all the raw datasets required for the cleaning and scraping steps, as well as the cleaned datasets required for modelling.
