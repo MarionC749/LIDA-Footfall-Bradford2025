@@ -116,7 +116,7 @@ The final model is used to quantify the change in footfall that would otherwise 
 
 2) I need to add a 'was during Bradford 2025 program' variable, retrain and refit the model on the whole dataset (2019-2025), and then predict footfall in 2026 to forecast trends post Bradford25.
    
-3) The whole analysis was done using the footfall data for the Met Office area (whole Bradford district), and should be repeated for other areas with daily footfall (example: BID area).
+3) The whole analysis was done using the footfall data for the Met Office area (whole Bradford district), and should be repeated for other areas with daily footfall (example: BID, city-centre and parks areas).
 
 ## Acknowledgments 🤝
 
