@@ -28,8 +28,7 @@ Acquire the datasets stored in the `Data` folder.
 
 ## Data 📊
 
-The `Data` folder contains all the raw datasets required for the cleaning and scraping steps, as well as the cleaned datasets required for modelling.
-The HUQ data was received on the 5th of November 2025, and the Kaggle data was accessed on the 9th of December 2025. **The HUQ datasets are not publically available and should not be shared.**
+The `Data` folder contains all the raw datasets required for the cleaning and scraping steps. The cleaned datasets required for modelling are within each specific analysis folder. The HUQ data was received on the 5th of November 2025, and the Kaggle data was accessed on the 9th of December 2025. **The HUQ datasets are not publically available and should not be shared.**
 
 Different datasets were collected, cleaned and joined:
 
