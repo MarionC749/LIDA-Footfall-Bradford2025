@@ -1,4 +1,4 @@
-# Evaluating the success of Bradford 2025 City of Culture programme with Footfall 👣
+# Evaluating the impact of cultural events using machine learning and digital footfall: a case study of Bradford City of Culture 2025. 👣
 
 ## Abstract 🔎
 
