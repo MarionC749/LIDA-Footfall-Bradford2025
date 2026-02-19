@@ -14,16 +14,12 @@ This research will demonstrate how mobile app digital footprints and predictive 
 ## Run Instructions 💻
 
 Acquire the datasets stored in the `Data` folder.
-1. Install dependencies from `requirements1.json`
-2. Run the `1- Exploratory Data Analysis.ipynb`, to explore the data.
-3. Install dependencies from `requirements2.json`
-5. Run `2- Footfall-Cleaning.ipynb`
-6. Install dependencies from `requirements3.json`
-7. Run `3- Data Scraping.ipynb`
-4. Install dependencies from `requirements4.json`
-5. Run `4- Modelling.ipynb`
-6. Install dependencies from `requirements5.json`
+1. Run the `1- Exploratory Data Analysis.ipynb`, to explore the data.
+2. Run `2- Footfall-Cleaning.ipynb`
+3. Run `3- Data Scraping.ipynb`
+4. Run `4- Modelling.ipynb`
 5. Run `5- 2026 Modelling.ipynb`
+6. For more information, explore `Other Notebooks` folder.
 
 ## Data 📊
 
