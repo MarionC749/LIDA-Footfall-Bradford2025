@@ -15,15 +15,15 @@ This research will demonstrate how mobile app digital footprints and predictive 
 
 Acquire the datasets stored in the `Data` folder.
 1. Install dependencies from `requirements1.json`
-2. Run the `EDA n Dashboard Interactive Plots.ipynb`, to explore the data.
+2. Run the `1- Exploratory Data Analysis.ipynb`, to explore the data.
 3. Install dependencies from `requirements2.json`
-5. Run `1- Footfall-Cleaning.ipynb`
+5. Run `2- Footfall-Cleaning.ipynb`
 6. Install dependencies from `requirements3.json`
-7. Run `2- Data Scraping.ipynb`
+7. Run `3- Data Scraping.ipynb`
 4. Install dependencies from `requirements4.json`
-5. Run `3- Modelling.ipynb`
+5. Run `4- Modelling.ipynb`
 6. Install dependencies from `requirements5.json`
-5. Run `4- 2026 Modelling.ipynb`
+5. Run `5- 2026 Modelling.ipynb`
 
 ## Data 📊
 
@@ -48,6 +48,19 @@ Precipitation | mm | Sum of daily precipitation (including rain, showers and sno
 Temperature | °C | Average daily air temperature at 2 meters above ground | [Open Meteo API](https://open-meteo.com/en/docs/historical-weather-api?bounding_box=-90,-180,90,180&hourly=&daily=temperature_2m_mean,precipitation_sum,wind_speed_10m_max)
 Wind Speed | km/h | Maximum wind speed on a day | [Open Meteo API](https://open-meteo.com/en/docs/historical-weather-api?bounding_box=-90,-180,90,180&hourly=&daily=temperature_2m_mean,precipitation_sum,wind_speed_10m_max)
 Daylight Duration | seconds | Number of seconds of daylight per day | [Open Meteo API](https://open-meteo.com/en/docs/historical-weather-api?bounding_box=-90,-180,90,180&hourly=&daily=temperature_2m_mean,precipitation_sum,wind_speed_10m_max)
+
+The **Bradford locations** used for modelling were:
+*    'BD Walls : Come on in my friend'
+*    'BD Walls : Roots'
+*    'BD Walls : Serving the district'
+*    'BD Walls : The Portal'
+*    'BD Walls : Wayfinders'
+*    'Darley Street Market'
+*    'Bradford - BID'
+*    'Bradford - City Centre'
+*    'Bradford - Lister Park'
+*    'Bradford - Roberts Park'
+
 
 ## Project Worflow ⚙️
 
