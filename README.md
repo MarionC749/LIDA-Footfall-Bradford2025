@@ -69,14 +69,16 @@ The **Bradford locations** used for modelling were:
 This notebook involves cleaning the raw footfall data and conducting exploratory data analysis, as well as creating visualizations which can be used for a dashboard.
 
 The ouput files from this are:
-* `.csv`
+* `footfall_map.html`
+* `footfall_plots.html`
 
 ### <ins> 2. Clean data </ins> ✨
 
 This notebook involves cleaning the raw footfall data and creating contextual temporal variables.
 
-The ouput files from this is:
-* `.csv`
+The ouput files from this are:
+* `missing_days_counts.csv`
+* `footfall_Mix_Clean.csv`
 
 ### <ins> 3. Data Scraping </ins> ⛏️
 
