@@ -23,7 +23,7 @@ Acquire the datasets stored in the `Data` folder.
 
 ## Data 📊
 
-The `Data` folder contains all the raw datasets required for the cleaning and scraping steps. The cleaned datasets required for modelling are within each specific analysis folder. The HUQ data was received on the 5th of November 2025, and the Kaggle data was accessed on the 9th of December 2025. **The HUQ datasets are not publically available and should not be shared.**
+The `Data` folder contains all the raw datasets required for the cleaning and scraping steps. The HUQ data was received on the 5th of November 2025, and the Kaggle data was accessed on the 9th of December 2025. **The HUQ datasets are not publically available and thus not shared here.**
 
 Different datasets were collected, cleaned and joined to have the following variables ready for modelling:
 
@@ -46,16 +46,11 @@ Wind Speed | km/h | Maximum wind speed on a day | [Open Meteo API](https://open-
 Daylight Duration | seconds | Number of seconds of daylight per day | [Open Meteo API](https://open-meteo.com/en/docs/historical-weather-api?bounding_box=-90,-180,90,180&hourly=&daily=temperature_2m_mean,precipitation_sum,wind_speed_10m_max)
 
 The **Bradford locations** used for modelling were:
-*    'BD Walls : Come on in my friend'
-*    'BD Walls : Roots'
-*    'BD Walls : Serving the district'
-*    'BD Walls : The Portal'
-*    'BD Walls : Wayfinders'
-*    'Darley Street Market'
 *    'Bradford - BID'
 *    'Bradford - City Centre'
 *    'Bradford - Lister Park'
 *    'Bradford - Roberts Park'
+*    'Bradford - Local Authority'
 
 
 ## Project Worflow ⚙️
@@ -87,7 +82,7 @@ The ouput files from this are:
 
 ### <ins> 4. Data Modelling </ins> 🤖
 
-This notebook is the continuity of the data cleaning and scraping by modelling the footfall data. The model is selected, tuned and fitted using the footfall data between 2019 and 2024. The model is then used later on to predict the 2025 footfall, to allow Bradford City of Culture program evaluation.
+This notebook is the continuity of the data cleaning and scraping by modelling the footfall data. The model is selected, tuned and fitted using the footfall data between 2019 and 2024. The model is then used later on to predict the 2025 footfall, to allow Bradford City of Culture programem impact evaluation.
 
 The below steps are followed:
 
@@ -120,15 +115,20 @@ Using the optimal hyperparameters found during the tuning, the model is fitted a
 
 The feature importance of the model predictor variables is investigated.
 
-#### 6) Using Model Forecast to Evaluate Events
+#### 6) Cross-Validated SHAP for Feature Importance
 
-The final model is used to predict footfall in 2025, and compare these predictions to actual footfall values, allowing to calculate the change in footfall that would otherwise been predicted in 2025.
+The feature importance of the model predictor variables is investigated using SHAP.
+
+#### 7) Using Model Forecast to Evaluate Events
+
+The final model is used to quantify the change in footfall that would otherwise been predicted in 2025.
+
 
 ## Other Work Included ℹ️
 
 The `Other Notebooks` folder includes other notebooks which were not part of the final analysis but contributed to the project work.
 * `Footfall Insights` folder contains 3 notebooks which were built to create various insights for different stakeholders (NCDO and Bradford 2025)
-* `SARIMAX Attempt` folder contains the notebooks used to try building a SARIMA model to predict footfall in 2025. The analysis was not used in the end as the performance of the Random Forest Regression was better and more approaprite to incorporate footfall in different locations.
+* `SARIMAX Attempt` folder contains the notebooks used to try building a SARIMA model to predict footfall in 2025. The analysis was not used in the end as the performance of the Random Forest Regression was better and more appropriate to incorporate footfall from different locations.
 
 
 ## Acknowledgments 🤝
