@@ -52,6 +52,7 @@ The **Bradford locations** used for modelling were:
 *    'Bradford - Roberts Park'
 *    'Bradford - Local Authority'
 
+During data exploration, geographical data on green spaces (specifically Roberts Park geometry) was also collected from the [Ordnance Survey](https://www.ordnancesurvey.co.uk/products/os-open-greenspace).
 
 ## Project Worflow ⚙️
 
