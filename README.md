@@ -18,8 +18,8 @@ Acquire the datasets stored in the `Data` folder.
 2. Run `2- Footfall-Cleaning.ipynb`
 3. Run `3- Data Scraping.ipynb`
 4. Run `4- Modelling.ipynb`
-5. Run `5- 2026 Modelling.ipynb`
 6. For more information, explore `Other Notebooks` folder.
+7. For more information, explore the footfall [Tableau Dashboard](https://public.tableau.com/views/FootfallInsightsDashboard/FootfallInsightsDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 ## Data 📊
 
