@@ -1,0 +1,15 @@
+area,common.dataType,Category,Value (All days of week),Value (Weekdays only),Value (Weekends only)
+BD walls the portal BD1 CBH,Dwell Time Distribution,0-30 min,31.6%,31.6%,0.0%
+BD walls the portal BD1 CBH,Dwell Time Distribution,30-2hrs,32.0%,32.0%,0.0%
+BD walls the portal BD1 CBH,Dwell Time Distribution,2-4 hrs,22.9%,22.9%,0.0%
+BD walls the portal BD1 CBH,Dwell Time Distribution,4-6 hrs,6.6%,6.6%,0.0%
+BD walls the portal BD1 CBH,Dwell Time Distribution,6-8 hrs,6.9%,6.9%,0.0%
+BD walls the portal BD1 CBH,Dwell Time Distribution,8-10 hrs,0.0%,0.0%,0.0%
+BD walls the portal BD1 CBH,Dwell Time Distribution,10hrs+,0.0%,0.0%,0.0%
+BD walls the portal BD1 CBH,Dwell Time by Day of Week,Monday,101.6 minutes,101.6 minutes,0.0 minutes
+BD walls the portal BD1 CBH,Dwell Time by Day of Week,Tuesday,189.6 minutes,189.6 minutes,0.0 minutes
+BD walls the portal BD1 CBH,Dwell Time by Day of Week,Wednesday,165.6 minutes,165.6 minutes,0.0 minutes
+BD walls the portal BD1 CBH,Dwell Time by Day of Week,Thursday,78.7 minutes,78.7 minutes,0.0 minutes
+BD walls the portal BD1 CBH,Dwell Time by Day of Week,Friday,43.4 minutes,43.4 minutes,0.0 minutes
+BD walls the portal BD1 CBH,Dwell Time by Day of Week,Saturday,0.0 minutes,0.0 minutes,0.0 minutes
+BD walls the portal BD1 CBH,Dwell Time by Day of Week,Sunday,0.0 minutes,0.0 minutes,0.0 minutes

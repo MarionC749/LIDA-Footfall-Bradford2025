@@ -1,0 +1,15 @@
+area,common.dataType,Category,Value (All days of week),Value (Weekdays only),Value (Weekends only)
+BD Walls RAVO,Dwell Time Distribution,0-30 min,0.0%,0.0%,0.0%
+BD Walls RAVO,Dwell Time Distribution,30-2hrs,0.0%,0.0%,0.0%
+BD Walls RAVO,Dwell Time Distribution,2-4 hrs,0.0%,0.0%,0.0%
+BD Walls RAVO,Dwell Time Distribution,4-6 hrs,0.0%,0.0%,0.0%
+BD Walls RAVO,Dwell Time Distribution,6-8 hrs,0.0%,0.0%,0.0%
+BD Walls RAVO,Dwell Time Distribution,8-10 hrs,0.0%,0.0%,0.0%
+BD Walls RAVO,Dwell Time Distribution,10hrs+,100.0%,100.0%,0.0%
+BD Walls RAVO,Dwell Time by Day of Week,Monday,710.6 minutes,710.6 minutes,0.0 minutes
+BD Walls RAVO,Dwell Time by Day of Week,Tuesday,910.2 minutes,910.2 minutes,0.0 minutes
+BD Walls RAVO,Dwell Time by Day of Week,Wednesday,780.1 minutes,780.1 minutes,0.0 minutes
+BD Walls RAVO,Dwell Time by Day of Week,Thursday,776.3 minutes,776.3 minutes,0.0 minutes
+BD Walls RAVO,Dwell Time by Day of Week,Friday,821.0 minutes,821.0 minutes,0.0 minutes
+BD Walls RAVO,Dwell Time by Day of Week,Saturday,0.0 minutes,0.0 minutes,0.0 minutes
+BD Walls RAVO,Dwell Time by Day of Week,Sunday,0.0 minutes,0.0 minutes,0.0 minutes

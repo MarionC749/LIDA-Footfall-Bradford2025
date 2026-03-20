@@ -1,0 +1,15 @@
+area,common.dataType,Category,Value (All days of week),Value (Weekdays only),Value (Weekends only)
+Bradford city centre,Dwell Time Distribution,0-30 min,27.6%,27.3%,28.6%
+Bradford city centre,Dwell Time Distribution,30-2hrs,33.5%,32.0%,38.7%
+Bradford city centre,Dwell Time Distribution,2-4 hrs,13.1%,12.7%,14.5%
+Bradford city centre,Dwell Time Distribution,4-6 hrs,4.5%,3.9%,6.5%
+Bradford city centre,Dwell Time Distribution,6-8 hrs,6.2%,6.4%,5.2%
+Bradford city centre,Dwell Time Distribution,8-10 hrs,10.2%,12.5%,2.3%
+Bradford city centre,Dwell Time Distribution,10hrs+,5.0%,5.3%,4.1%
+Bradford city centre,Dwell Time by Day of Week,Monday,223.6 minutes,223.6 minutes,0.0 minutes
+Bradford city centre,Dwell Time by Day of Week,Tuesday,186.9 minutes,186.9 minutes,0.0 minutes
+Bradford city centre,Dwell Time by Day of Week,Wednesday,193.8 minutes,193.8 minutes,0.0 minutes
+Bradford city centre,Dwell Time by Day of Week,Thursday,201.3 minutes,201.3 minutes,0.0 minutes
+Bradford city centre,Dwell Time by Day of Week,Friday,181.6 minutes,181.6 minutes,0.0 minutes
+Bradford city centre,Dwell Time by Day of Week,Saturday,151.4 minutes,0.0 minutes,151.4 minutes
+Bradford city centre,Dwell Time by Day of Week,Sunday,126.0 minutes,0.0 minutes,126.0 minutes

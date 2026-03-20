@@ -1,0 +1,15 @@
+area,common.dataType,Category,Value (All days of week),Value (Weekdays only),Value (Weekends only)
+Lister Park,Dwell Time Distribution,0-30 min,45.5%,49.4%,36.3%
+Lister Park,Dwell Time Distribution,30-2hrs,52.4%,47.5%,63.7%
+Lister Park,Dwell Time Distribution,2-4 hrs,2.2%,3.1%,0.0%
+Lister Park,Dwell Time Distribution,4-6 hrs,0.0%,0.0%,0.0%
+Lister Park,Dwell Time Distribution,6-8 hrs,0.0%,0.0%,0.0%
+Lister Park,Dwell Time Distribution,8-10 hrs,0.0%,0.0%,0.0%
+Lister Park,Dwell Time Distribution,10hrs+,0.0%,0.0%,0.0%
+Lister Park,Dwell Time by Day of Week,Monday,53.0 minutes,53.0 minutes,0.0 minutes
+Lister Park,Dwell Time by Day of Week,Tuesday,31.5 minutes,31.5 minutes,0.0 minutes
+Lister Park,Dwell Time by Day of Week,Wednesday,17.8 minutes,17.8 minutes,0.0 minutes
+Lister Park,Dwell Time by Day of Week,Thursday,54.0 minutes,54.0 minutes,0.0 minutes
+Lister Park,Dwell Time by Day of Week,Friday,60.9 minutes,60.9 minutes,0.0 minutes
+Lister Park,Dwell Time by Day of Week,Saturday,53.5 minutes,0.0 minutes,53.5 minutes
+Lister Park,Dwell Time by Day of Week,Sunday,60.0 minutes,0.0 minutes,60.0 minutes

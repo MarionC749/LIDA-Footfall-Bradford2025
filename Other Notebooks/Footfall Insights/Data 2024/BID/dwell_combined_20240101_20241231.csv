@@ -1,0 +1,15 @@
+﻿area,common.dataType,Category,Value (All days of week),Value (Weekdays only),Value (Weekends only)
+Bradford Bid,Dwell Time Distribution,0-30 min,37.9%,38.8%,34.8%
+Bradford Bid,Dwell Time Distribution,30-2hrs,27.2%,26.3%,30.3%
+Bradford Bid,Dwell Time Distribution,2-4 hrs,11.3%,10.2%,14.8%
+Bradford Bid,Dwell Time Distribution,4-6 hrs,6.2%,6.7%,4.4%
+Bradford Bid,Dwell Time Distribution,6-8 hrs,6.0%,7.2%,1.8%
+Bradford Bid,Dwell Time Distribution,8-10 hrs,4.3%,4.5%,3.4%
+Bradford Bid,Dwell Time Distribution,10hrs+,7.2%,6.2%,10.5%
+Bradford Bid,Dwell Time by Day of Week,Monday,172.1 minutes,172.1 minutes,0.0 minutes
+Bradford Bid,Dwell Time by Day of Week,Tuesday,162.6 minutes,162.6 minutes,0.0 minutes
+Bradford Bid,Dwell Time by Day of Week,Wednesday,202.2 minutes,202.2 minutes,0.0 minutes
+Bradford Bid,Dwell Time by Day of Week,Thursday,195.6 minutes,195.6 minutes,0.0 minutes
+Bradford Bid,Dwell Time by Day of Week,Friday,180.7 minutes,180.7 minutes,0.0 minutes
+Bradford Bid,Dwell Time by Day of Week,Saturday,182.4 minutes,0.0 minutes,182.4 minutes
+Bradford Bid,Dwell Time by Day of Week,Sunday,259.1 minutes,0.0 minutes,259.1 minutes
