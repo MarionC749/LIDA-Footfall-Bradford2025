@@ -77,7 +77,7 @@ The ouput files from this are:
 This notebook involves adding more contextual variables by scraping data for weather (with API), UK bank holidays, school holidays and covid times. The notebook ends by separating data for the 2019-2024 period and the 2025 period, and removing outliers in the 2019-2024 data using the Median Average Distance technique.
 
 The ouput files from this are:
-* `footfall_clean.csv` (all years)
+* `footfall_cleaned.csv` (all years)
 * `footfall_cleaned_19_24.csv` (2019-2024)
 * `footfall_cleaned_2025.csv` (just 2025)
 
