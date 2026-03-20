@@ -78,8 +78,8 @@ This notebook involves adding more contextual variables by scraping data for wea
 
 The ouput files from this are:
 * `footfall_clean.csv` (all years)
-* `footfall_19_24.csv` (2019-2024)
-* `footfall_2025.csv` (just 2025)
+* `footfall_cleaned_19_24.csv` (2019-2024)
+* `footfall_cleaned_2025.csv` (just 2025)
 
 ### <ins> 4. Data Modelling </ins> 🤖
 
