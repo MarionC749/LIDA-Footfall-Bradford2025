@@ -127,8 +127,8 @@ The final model is used to quantify the change in footfall that would otherwise 
 
 ## Other Work Included ℹ️
 
-The `Other Notebooks` folder includes other notebooks which were not part of the final analysis but contributed to the project work.
-* `Footfall Insights` folder contains 3 notebooks which were built to create various insights for different stakeholders (NCDO and Bradford 2025)
+The `Other Notebooks` folder includes other notebooks which were not part of the modelling analysis but contributed to the project work.
+* `Footfall Insights` folder contains 3 notebooks which were built to create various insights for different stakeholders (NCDO and Bradford 2025) on footfall but also demographics, dwell time and sales.
 * `SARIMAX Attempt` folder contains the notebooks used to try building a SARIMA model to predict footfall in 2025. The analysis was not used in the end as the performance of the Random Forest Regression was better and more appropriate to incorporate footfall from different locations.
 
 
